@@ -10,6 +10,16 @@ This is an input plugin for the [Cisco AMP v1.0 API](https://api-docs.amp.cisco.
 
 ## Installation
 
+### Ruby Gems
+
+[RubyGems](https://rubygems.org/gems/logstash-input-cisco_amp)
+
+```bash
+gem install logstash-input-cisco_amp --platform=java
+```
+
+### Manual
+
 ```bash
 cd /opt
 git clone https://github.com/zaneGittins/logstash-input-cisco_amp
