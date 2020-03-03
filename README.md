@@ -1,5 +1,7 @@
 # Logstash Cisco AMP Plugin
 
+[![Gem Version](https://badge.fury.io/rb/logstash-input-cisco_amp.svg)](https://badge.fury.io/rb/logstash-input-cisco_amp)
+
 This is an input plugin for the [Cisco AMP v1.0 API](https://api-docs.amp.cisco.com/api_resources?api_host=api.amp.cisco.com&api_version=v1) that ingests events into Logstash. This plugin has undergone limited testing but should be functional. Pull requests welcome.
 
 ## Plugin Parameters
@@ -11,8 +13,6 @@ This is an input plugin for the [Cisco AMP v1.0 API](https://api-docs.amp.cisco.
 ## Installation
 
 ### Ruby Gems
-
-[RubyGems](https://rubygems.org/gems/logstash-input-cisco_amp)
 
 ```bash
 gem install logstash-input-cisco_amp --platform=java
